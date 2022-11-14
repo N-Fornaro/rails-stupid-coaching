@@ -1,0 +1,11 @@
+<div class="container w-50 p-3 justify-content-center">
+<h1>View  ask page  🚀</h1>
+  <div class="row mb-4 w-75 ">
+    <form action="answer" data-turbo="false" class="justify-content-center">
+      <label for="inputQuestion" class="form-label mb-3">What is your question ? </label>
+      <input type="text" name="question" placeholder="Write here" class="form-control mb-3">
+      <input type="submit" value="Ask!" class="btn btn-primary mb-3" >
+    </form>
+  </div>
+<%= link_to "Answer Coach", answer_path %>
+</div>
